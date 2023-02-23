@@ -1,0 +1,43 @@
+.main {
+  width: 1200px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
+
+.movie_by_james {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.movieSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  background-color: rgb(31, 223, 223);
+  border-left: 100px solid white;
+  border-bottom: 100px solid transparent;
+}
+
+.movieSearchContent .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid rgb(17, 172, 233);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.movieSearchContent{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
